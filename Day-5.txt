@@ -1,0 +1,88 @@
+Date: 17th July 2025
+📘 Topic: Semantic Tags and Multimedia in HTML
+⏰ Duration: 1 Hour
+
+⸻
+
+✅ What I Learned Today:
+
+📌 Semantic HTML Tags:
+	•	Tags that describe the meaning of the content.
+	•	Help with better structure, SEO, and accessibility.
+	•	Common semantic tags:
+	•	<header> – Defines the page or section header
+	•	<footer> – Defines the footer
+	•	<nav> – For navigation links
+	•	<section> – A distinct section of the page
+	•	<article> – Independent, self-contained content
+	•	<aside> – For sidebars or related content
+
+📌 Multimedia Tags:
+	•	Tags used to embed audio and video in a webpage.
+	•	<audio> and <video> tags with controls attribute to display playback controls.
+	•	Supported file formats include .mp3, .mp4, etc.
+
+⸻
+
+💻 What I Practiced:
+	1.	Created a webpage layout using <header>, <nav>, <section>, and <footer>.
+	2.	Embedded a video and an audio file with playback controls.
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Web Layout with Multimedia</title>
+</head>
+<body>
+
+  <header>
+    <h1>My HTML Page</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Welcome</h2>
+    <p>This is an example of a semantic layout with multimedia content.</p>
+  </section>
+
+  <article>
+    <h3>Watch this Video</h3>
+    <video width="320" height="240" controls>
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h3>Listen to this Audio</h3>
+    <audio controls>
+      <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </article>
+
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+
+</body>
+</html>
+🧠 New Tags or Concepts I Learned:
+	•	Semantic tags: <header>, <nav>, <section>, <article>, <footer>, <aside>
+	•	Multimedia tags: <audio>, <video>
+	•	Attributes: controls, src, type, width, height
+
+⸻
+
+😌 My Reflection:
+
+I really enjoyed today’s session! Using semantic tags made my webpage look professional and well-organized. Embedding video and audio made the page more interactive. It was fun to bring everything together. Now I feel confident in creating a basic, structured, and media-rich webpage.
+
+⸻
+
+🎯 Next Goal (Future Learning):
+	•	Learn CSS to style my HTML pages.
+	•	Understand how to make webpages look attractive and responsive.
